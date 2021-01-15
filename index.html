@@ -676,7 +676,7 @@ Nissan 300ZX - "32" (https://skfb.ly/6oWtK) by ｍononofu is licensed under Crea
 	    curTime = (new Date()).getTime();
             if(is_cone1 == 0 && random > 0.99 && curTime - cone_time > 25)
             {
-                var Texture = new THREE.TextureLoader().load( "textures/bollard.bmp" );  
+                var Texture = new THREE.TextureLoader().load( "textures/bollard.png" );  
                 var Material = new THREE.MeshBasicMaterial( { map: Texture, side: THREE.DoubleSide,  transparent: true } );
                 var Geometry = new THREE.PlaneGeometry(3, 4, 1, 1);
                 var cone1_plane = new THREE.Mesh(Geometry, Material); 
