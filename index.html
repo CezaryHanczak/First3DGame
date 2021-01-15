@@ -673,7 +673,7 @@ Nissan 300ZX - "32" (https://skfb.ly/6oWtK) by ｍononofu is licensed under Crea
             random = Math.random();
             if(is_cone1 == 0 && random > 0.99)
             {
-                var Texture = new THREE.TextureLoader().load( "textures/bollard.bmp" );  
+                var Texture = new THREE.TextureLoader().load( "/textures/bollard.bmp" );  
                 var Material = new THREE.MeshBasicMaterial( { map: Texture, side: THREE.DoubleSide,  transparent: true } );
                 var Geometry = new THREE.PlaneGeometry(3, 4, 1, 1);
                 var cone1_plane = new THREE.Mesh(Geometry, Material); 
@@ -720,7 +720,7 @@ Nissan 300ZX - "32" (https://skfb.ly/6oWtK) by ｍononofu is licensed under Crea
             random = Math.random();
             if(is_cone2 == 0 && random > 0.99)
             {
-                var Texture = new THREE.TextureLoader().load( "textures/bollard.png" );  
+                var Texture = new THREE.TextureLoader().load( "/textures/bollard.png" );  
                 var Material = new THREE.MeshBasicMaterial( { map: Texture, side: THREE.DoubleSide,  transparent: true } );
                 var Geometry = new THREE.PlaneGeometry(3, 4, 1, 1);
                 var cone2_plane = new THREE.Mesh(Geometry, Material); 
@@ -767,7 +767,7 @@ Nissan 300ZX - "32" (https://skfb.ly/6oWtK) by ｍononofu is licensed under Crea
             random = Math.random();
             if(is_cone3 == 0 && random > 0.999)
             {
-                var Texture = new THREE.TextureLoader().load( "textures/bollard.png" );  
+                var Texture = new THREE.TextureLoader().load( "/textures/bollard.png" );  
                 var Material = new THREE.MeshBasicMaterial( { map: Texture, side: THREE.DoubleSide,  transparent: true } );
                 var Geometry = new THREE.PlaneGeometry(3, 4, 1, 1);
                 var cone3_plane = new THREE.Mesh(Geometry, Material); 
